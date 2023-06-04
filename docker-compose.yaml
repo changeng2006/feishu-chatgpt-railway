@@ -10,14 +10,14 @@ services:
     # volumes:
     #   - ./code/config.yaml:/app/config.yaml:ro
     environment:
-      - APP_ID=cli_axxx
-      - APP_SECRET=xxx
-      - APP_ENCRYPT_KEY=xxx
-      - APP_VERIFICATION_TOKEN=xxx
+      - APP_ID=cli_a4f6f1488721500e
+      - APP_SECRET=PKpyW1x0IVtuNPKi38UDwhJoRZyDQEVO
+      - APP_ENCRYPT_KEY=Uq6ZRLRJmNX3ZwMWn6w91cwce1bvU5Ed
+      - APP_VERIFICATION_TOKEN=TvaQr2fVnhjjXfNIDwseIh14SlaJOV0A
       # 请确保和飞书应用管理平台中的设置一致
-      - BOT_NAME=chatGpt
+      - BOT_NAME=GPT4
       # OpenAI API Key 支持负载均衡, 可以填写多个 Key 用逗号分隔
-      - OPENAI_KEY=sk-xxx,sk-xxx,sk-xxx
+      - OPENAI_KEY=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
       # 服务器配置
       - HTTP_PORT=9000
       - HTTPS_PORT=9001
